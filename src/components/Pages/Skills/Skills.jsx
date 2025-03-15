@@ -1,11 +1,12 @@
 import React from 'react'
 
- export const Home = () => {
+ export const Skills = () => {
   return (
     <div>
-      <h1>inicio</h1>
+      <h1>Habilidades</h1>
     </div>
   )
 }
+
 
 
