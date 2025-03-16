@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Container = ({ children }) => {
   return (
-    <div>
+    <div className='w-full h-screen'> 
       {
         children
       }

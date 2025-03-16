@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes,Route } from 'react-router-dom'
 import { Container } from './components/Container/Container'
 import {Home} from "./components/Pages/Home/Home"
-import {Skills } from './components/Pages/Skills/Skills'
+import {Skills} from './components/Pages/Skills/Skills'
 import {Studies} from "./components/Pages/Studies/Studies"
 import {Projects} from "./components/Pages/Projects/Projects"
 import {Contact} from "./components/Pages/Contact/Contact"
