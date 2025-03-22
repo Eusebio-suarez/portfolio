@@ -5,7 +5,7 @@ import { SocialNetwork } from '../../Atomics/SocialNetwork/SocialNetwork'
 
 export const Contact = () => {
   return (
-    <div className='flex flex-col items-center justify-center m-7'>
+    <div className='flex flex-col items-center justify-center mb-14'>
       <MyImg/>
       <h1 className='text-white'>Contacto</h1>
       <div className="flex space-x-4 bg-blue-800 m-4 rounded-2xl">
