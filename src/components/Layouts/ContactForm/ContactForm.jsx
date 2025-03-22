@@ -1,21 +1,23 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 export const ContactForm = () => {
   const [state, handleSubmit] = useForm("mldjjvlr");
+  const [showSuccess, setShowSuccess] = useState(false);
 
   useEffect(() => {
     if (state.succeeded) {
+      setShowSuccess(true);
       setTimeout(() => {
-        window.location.reload();
+        setShowSuccess(false);
       }, 2500);
     }
   }, [state.succeeded]);
 
-  if (state.succeeded) { 
-    return <p className='text-green-400 m-3'>¡Correo enviado con éxito!</p>; // Mensaje antes de recargar
+  if (showSuccess) {
+    return <p className='text-green-400 m-3'>¡Correo enviado con éxito!</p>;
   }
- 
+
   return (
     <form onSubmit={handleSubmit} className='text-white flex flex-col items-center m-3'>
       <input
