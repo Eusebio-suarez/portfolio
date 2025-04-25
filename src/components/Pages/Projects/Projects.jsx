@@ -6,7 +6,7 @@ import ProyectImg4 from "../../../assets/img/proyect4.png"
 
 export const Projects = () => {
   return (
-    <div className='flex flex-col justify-center items-center mt-10 gap-12 mb-16'>
+    <div className='flex flex-col justify-center items-center mt-10 gap-12 mb-20'>
       <Proyect
       name='Ed-Travel' 
       desc='Ed-Travel es la maquetacion de una plataforma de planificación de viajes que permite a los usuarios seleccionar destinos, fechas y cantidad de personas, todo en un diseño atractivo y accesible, ofreciendo una experiencia fluida para planificar el viaje de manera sencilla.'
