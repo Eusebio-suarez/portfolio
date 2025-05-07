@@ -63,7 +63,7 @@ svg:hover{
 }
 
 .skillContainer:hover .skillImg {
-  animation: rotate 5s linear infinite 0.35s;
+  animation: levitate 2.2s ease-in-out infinite 0.3s;
 }
 
 @keyframes rotate{
@@ -72,5 +72,17 @@ svg:hover{
   }
   100%{
     transform: rotatey(360deg);
+  }
+}
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4.5px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
