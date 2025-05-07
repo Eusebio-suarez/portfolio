@@ -8,7 +8,7 @@ export const Contact = () => {
     <div className='flex flex-col items-center justify-center mb-14'>
       <MyImg/>
       <h1 className='text-white'>Contacto</h1>
-      <div className="flex space-x-4 bg-blue-800 m-4 rounded-2xl">
+      <div className="flex space-x-1.5 bg-blue-800 m-4 rounded-2xl">
         <SocialNetwork 
           srcImg="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" 
           name="LinkedIn" 
@@ -19,12 +19,11 @@ export const Contact = () => {
           name="GitHub" 
           link="https://github.com/Eusebio-suarez"
         />
-        <div className='flex flex-col items-center m-2'>
-          <p className='text-white'>eusebiosuaresmartines@gmail.com</p>
+        <div className='flex items-center m-2'>
           <p className="text-white">🏠 Colombia/Quindio</p>
         </div>
       </div>
-      <div className='flex flex-col items-center bg-[#222d43] rounded-2xl mt-10'>
+      <div className='flex flex-col items-center bg-[#222d43] rounded-2xl mt-5 mb-10'>
       <h1 className='text-white'>¡Hablemos!</h1>
       <ContactForm/>
       </div>
