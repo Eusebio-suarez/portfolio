@@ -45,12 +45,17 @@ body{
 h1{
   font-size: 30px;
   font-weight: 700;
+  animation:animateText 1.5s 1;
 }
 
 h2{
   text-align: center;
   font-size: 25px;
   font-weight: 700;
+}
+
+.home p{
+  animation:opacity 2s 1;
 }
 
 svg{
@@ -60,6 +65,14 @@ svg{
 svg:hover{
   scale: 1.05;
   transition-duration: 0.3s;
+}
+
+.skills{
+  animation:opacity 2s 1;
+}
+
+.titleSkill{
+  animation:animateText 1.5s 1;
 }
 
 .skillContainer:hover .skillImg {
@@ -84,5 +97,18 @@ svg:hover{
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes animateText {
+  0%{
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes opacity {
+  0%{
+    opacity: 0;
   }
 }

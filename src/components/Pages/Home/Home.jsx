@@ -2,9 +2,9 @@ import React from 'react'
 import { MyImg } from '../../Atomics/MyImg/MyImg'
  export const Home = () => {
   return (
-    <div className='flex flex-col items-center text-center'>
+    <div className='home flex flex-col items-center text-center'>
       <MyImg/>
-      <h1 className='text-white'>¡Hola! Soy Eusebio Suarez</h1>
+      <h1 className='text-blue-500'>¡Hola! Soy Eusebio Suarez</h1>
       <p className="text-white pt-5 pb-[50px] px-4 ">
       Desarrollador junior con conocimientos en backend y frontend, con un mayor enfoque en frontend.  
       Actualmente, cursando el tecnólogo en Análisis y Desarrollo de Software, adquiriendo habilidades en el diseño, 
