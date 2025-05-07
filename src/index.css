@@ -63,7 +63,7 @@ svg:hover{
 }
 
 .skillContainer:hover .skillImg {
-  animation: rotate 5s linear 0.35s;
+  animation: rotate 5s linear infinite 0.35s;
 }
 
 @keyframes rotate{
