@@ -10,7 +10,7 @@ export const Proyect = ({
 }) => {
   return (
     <div className=" flex items-center flex-col max-w-sm rounded-t-lg overflow-hidden shadow-lg transition-transform transform hover:translate-y-2 w-full sm:w-72 md:w-80 lg:w-96">
-      <img className="w-[80%] h-40 object-cover hover:scale-[102%] transition duration-500 rounded-lg" src={img} alt="Project Image"/>
+      <img className="w-[80%] h-40 object-cover hover:scale-[102%] transition duration-500 rounded-t-lg" src={img} alt="Project Image"/>
       <div className="w-[80%] p-6 bg-white rounded-b-lg">
         <h3 className="text-xl font-bold text-gray-800 mb-2">{name}</h3>
         <p className="text-gray-600 text-sm mb-4 ">{desc}</p>
