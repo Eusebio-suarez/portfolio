@@ -79,6 +79,18 @@ svg:hover{
   animation: levitate 2.2s ease-in-out infinite 0.3s;
 }
 
+.myImg{
+  animation:animateImg 1.5s 1;
+}
+
+.form{
+  animation:animateText 1.5s 1;
+}
+
+.socialNetwork{
+  animation:animateText 1.5s 1;
+}
+
 @keyframes rotate{
   0%{
     transform: rotatey(0);
@@ -103,12 +115,19 @@ svg:hover{
 @keyframes animateText {
   0%{
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(-100px);
   }
 }
 
 @keyframes opacity {
   0%{
     opacity: 0;
+  }
+}
+
+@keyframes animateImg {
+  0%{
+    opacity: 0;
+    transform: translatey(-50px);
   }
 }
